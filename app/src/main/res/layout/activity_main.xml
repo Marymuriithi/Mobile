@@ -54,9 +54,11 @@
             android:layout_marginStart="128dp"
             android:layout_marginLeft="128dp"
             android:layout_marginTop="68dp"
+            android:layout_marginBottom="76dp"
             android:ems="10"
             android:inputType="phone"
             android:text="Phone Number"
+            app:layout_constraintBottom_toTopOf="@+id/Password"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Email" />
 
@@ -81,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="128dp"
             android:layout_marginLeft="128dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="68dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Name"
@@ -93,9 +95,9 @@
             android:id="@+id/Sign Up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="148dp"
-            android:layout_marginLeft="148dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="8dp"
             android:text="Button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Cornfirm Password"
@@ -157,27 +159,33 @@
             tools:layout_editor_absoluteY="391dp" />
 
     <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="38dp"
-            android:layout_height="37dp"
-            app:srcCompat="@drawable/ic_baseline_security_24"
-            tools:layout_editor_absoluteX="58dp"
-            tools:layout_editor_absoluteY="510dp" />
-
-    <ImageView
             android:id="@+id/imageView6"
             android:layout_width="35dp"
             android:layout_height="32dp"
             app:srcCompat="@drawable/ic_baseline_confirmation_number_24"
             tools:layout_editor_absoluteX="61dp"
-            tools:layout_editor_absoluteY="637dp" />
+            tools:layout_editor_absoluteY="629dp" />
 
     <ImageView
             android:id="@+id/imageView7"
             android:layout_width="37dp"
             android:layout_height="32dp"
             app:srcCompat="@drawable/ic_baseline_how_to_reg_24"
-            tools:layout_editor_absoluteX="96dp"
-            tools:layout_editor_absoluteY="693dp" />
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="685dp" />
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/Password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/ic_baseline_vpn_key_24" />
 
 </android.support.constraint.ConstraintLayout>
